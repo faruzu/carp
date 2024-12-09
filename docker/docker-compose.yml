@@ -1,0 +1,11 @@
+services:
+  web:
+    container_name: ${COMPOSE_PROJECT_NAME}
+    image: node:20
+    stdin_open: true
+    user: node
+    working_dir: /usr/src/app
+    ports:
+      - 3000:3000
+    volumes:
+      - ../:/usr/src/app
