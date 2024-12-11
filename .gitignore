@@ -1,0 +1,35 @@
+# Dependency and build directories
+node_modules
+
+# Local environment files
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Yarn directories
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
