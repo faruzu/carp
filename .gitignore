@@ -4,6 +4,7 @@ node_modules
 # Local environment files
 .env
 .env.*
+!.env.example
 
 # Logs
 logs
@@ -25,11 +26,3 @@ dist
 # OS
 .DS_Store
 Thumbs.db
-
-# Yarn directories
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions

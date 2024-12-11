@@ -1,7 +1,6 @@
 {
   "name": "carp",
   "private": true,
-  "packageManager": "yarn@4.6.0",
   "type": "module",
   "scripts": {
     "build": "nuxt build",
